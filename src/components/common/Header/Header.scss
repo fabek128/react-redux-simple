@@ -1,0 +1,33 @@
+@import '../../../assets/sass/variables';
+
+.headerSection {
+  .navbar-brand {
+    padding-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .navbar-nav>li>a {
+    color: white;
+    font-family: $gothamBold;
+
+    &:hover {
+      color: $secondaryColor;
+    }
+
+    &:focus {
+      color: $secondaryColor;
+    }
+  }
+
+  .navbar-nav .open .dropdown-menu>li>a {
+    color: black;
+    font-family: $gothamBold;
+  }
+
+  .customNav {
+    background-color: transparent;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    border-color: transparent;
+  }
+}

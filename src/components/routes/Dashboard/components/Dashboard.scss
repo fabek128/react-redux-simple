@@ -1,0 +1,47 @@
+@import '../../../../assets/sass/variables';
+
+.dashboardSection {
+  .cardGroup {
+    .cardItem {
+      .paymentSuccess {
+        color: $success-color;
+        margin-bottom: 30px;
+      }
+
+      .secondaryInfo {
+        & > :first-child {
+          margin-top: 20px;
+          margin-bottom: 5px;
+        }
+
+        & > :last-child {
+          margin-bottom: 20px;
+        }
+      }
+
+      .totalBalance {
+        margin-top: 30px;
+      }
+
+      .paymentsDetail {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .form-group {
+          margin-bottom: 0px;
+        }
+      }
+
+      .paymentsTotal {
+        margin-bottom: 20px;
+
+        .totalAmount {
+          font-family: $gothamBold;
+          text-decoration: underline;
+          text-underline-position: under;
+        }
+      }
+    }
+  }
+}
